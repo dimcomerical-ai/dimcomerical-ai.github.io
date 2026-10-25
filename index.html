@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="TR Domain Scout is a private research utility for Turkish keyword analysis and domain availability checks.">
+  <meta name="description" content="TR Domain Scout is a private, locally operated application for Turkish keyword planning research and domain availability checks.">
   <title>TR Domain Scout</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -23,11 +23,13 @@
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Private research utility</p>
-        <h1>Turkish keyword and domain research, in one local workflow.</h1>
+        <p class="eyebrow">Private, locally operated research application</p>
+        <h1>TR Domain Scout</h1>
+        <p class="hero-tagline">Keyword planning and domain research for Türkiye.</p>
         <p class="lede">
-          TR Domain Scout is a single-operator tool under development. It helps its operator review
-          Turkish-language keyword demand, check selected domain extensions, and export research results.
+          <strong>TR Domain Scout</strong> helps its operator request aggregated keyword-planning metrics
+          from the Google Ads API, review Turkish-language keyword demand, check selected domain extensions
+          through public RDAP services, and export research results to a local CSV file.
         </p>
         <div class="hero-actions">
           <a class="button" href="#purpose">How it works</a>
@@ -37,11 +39,12 @@
       <aside class="status-card" aria-label="Application summary">
         <span class="status-dot" aria-hidden="true"></span>
         <p class="status-title">Local by design</p>
-        <p>The application runs on the operator's own computer and uses authorized API connections.</p>
+        <p>This public website requires no login. The research application runs on the operator's own computer and uses authorized API connections.</p>
         <dl>
           <div><dt>Audience</dt><dd>Single operator</dd></div>
           <div><dt>Market</dt><dd>Türkiye</dd></div>
           <div><dt>Output</dt><dd>CSV research export</dd></div>
+          <div><dt>Website access</dt><dd>No sign-in required</dd></div>
         </dl>
       </aside>
     </section>
@@ -50,7 +53,11 @@
       <div class="section-heading">
         <p class="eyebrow">Purpose</p>
         <h2>A focused research pipeline</h2>
-        <p>The tool supports research and planning. It does not create advertisements or register domains.</p>
+        <p>
+          TR Domain Scout supports pre-campaign keyword research and domain-name research. It does not create
+          advertisements, modify Google Ads campaigns, manage billing, register domains, or provide services
+          to the public.
+        </p>
       </div>
       <div class="steps">
         <article>
@@ -68,6 +75,36 @@
           <h3>Check domains</h3>
           <p>Query public RDAP services for selected extensions and export the findings for manual review.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="section" id="google-api-use">
+      <div class="section-heading">
+        <p class="eyebrow">Google API use</p>
+        <h2>Limited to keyword-planning research</h2>
+        <p>
+          The application uses the Google Ads API only for authorized keyword-planning requests made by its
+          operator. It does not request Google profile, Gmail, Contacts, Drive, Photos, or other personal
+          Google-account content.
+        </p>
+      </div>
+      <div class="data-grid">
+        <div>
+          <h3>Data requested</h3>
+          <p>Aggregated keyword ideas, historical search metrics, competition indicators, and the account identifiers required to submit the request.</p>
+        </div>
+        <div>
+          <h3>How data is used</h3>
+          <p>Results are displayed to the operator for research and may be exported locally as CSV. They are not sold or used to profile other people.</p>
+        </div>
+        <div>
+          <h3>No automated advertising</h3>
+          <p>TR Domain Scout does not create or modify campaigns, ads, audiences, budgets, billing profiles, users, or payment methods.</p>
+        </div>
+        <div>
+          <h3>No prohibited imagery</h3>
+          <p>The application does not generate, upload, distribute, or facilitate AI-generated non-consensual intimate imagery or any other intimate imagery.</p>
+        </div>
       </div>
     </section>
 
@@ -111,7 +148,7 @@
   <footer>
     <div>
       <strong>TR Domain Scout</strong>
-      <p>Independent private research software. Not affiliated with Google, Yandex, IANA, or any registrar.</p>
+      <p>Independent private research software operated by its developer. Not affiliated with Google, Yandex, IANA, or any registrar.</p>
     </div>
     <div class="footer-links">
       <a href="privacy.html">Privacy Policy</a>

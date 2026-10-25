@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for TR Domain Scout.">
+  <meta name="description" content="Privacy Policy describing the data collection, use, storage, sharing, retention, and deletion practices of TR Domain Scout.">
   <title>Privacy Policy · TR Domain Scout</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -24,49 +24,93 @@
     <p class="eyebrow">Effective 26 October 2026</p>
     <h1>Privacy Policy</h1>
     <p class="legal-intro">
-      This policy explains how TR Domain Scout handles information when used by its operator and how this
-      public information website works.
+      This policy explains what information TR Domain Scout accesses, why it is used, where it is stored,
+      when it is shared, how long it is retained, and how it can be deleted. It also explains how this public
+      informational website operates.
     </p>
 
     <section>
-      <h2>1. Scope</h2>
+      <h2>1. Application identity and scope</h2>
       <p>
-        TR Domain Scout is a private, locally operated research utility. It is not a public account-based
-        service. This website provides information about the application and does not run the research tool.
+        TR Domain Scout is a private, locally operated keyword-planning and domain-research application.
+        It is operated by an independent developer and used by a single authorized operator. It is not a
+        public account-based or multi-user service. This website provides public information about the
+        application and does not run the research tool. No login is required to view this website.
       </p>
     </section>
 
     <section>
       <h2>2. Information processed by the application</h2>
-      <p>The local application may process the following information supplied by its operator:</p>
+      <p>The local application may process the following categories of information:</p>
       <ul>
-        <li>keywords, brand names, search-volume ranges, and selected domain extensions;</li>
-        <li>API configuration identifiers and credentials required to contact authorized services;</li>
-        <li>keyword metrics, public-source results, and RDAP domain-status responses.</li>
+        <li>research inputs supplied by the operator, including keywords, brand names, language, location, search-volume ranges, and selected domain extensions;</li>
+        <li>technical configuration, including Google Ads customer identifiers, developer-token configuration, and credentials required to contact authorized services;</li>
+        <li>Google Ads API keyword ideas, aggregated historical search metrics, competition indicators, and related planning results;</li>
+        <li>public-source research results and RDAP domain-registration status responses;</li>
+        <li>local job status and error messages required to operate and troubleshoot the application.</li>
+      </ul>
+      <p>
+        The application does not request access to Google profile information, Gmail, Contacts, Calendar,
+        Drive, Photos, precise location, health information, or other personal Google-account content.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Google Ads API access and purpose</h2>
+      <p>
+        Google Ads API access is performed using a dedicated service account that has been granted access by
+        the operator to the operator-controlled Google Ads account. The application uses this access only to
+        request aggregated keyword ideas and keyword-planning metrics for Türkiye. These results help the
+        operator compare potential search topics before making independent business decisions.
+      </p>
+      <p>
+        TR Domain Scout does not create or modify campaigns, advertisements, audiences, conversion actions,
+        budgets, users, billing profiles, or payment methods. It does not sell Google API data, use it for
+        personalized advertising, or use it to build profiles about other people.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. How information is used</h2>
+      <p>Information is used only to perform an operator-requested research workflow:</p>
+      <ul>
+        <li>submit selected keywords and targeting parameters to authorized keyword-planning services;</li>
+        <li>display and sort returned metrics for manual review;</li>
+        <li>check selected domain extensions through public RDAP services;</li>
+        <li>create a local CSV export when the operator explicitly requests one;</li>
+        <li>diagnose technical errors and enforce API limits.</li>
       </ul>
     </section>
 
     <section>
-      <h2>3. Google Ads API data</h2>
-      <p>
-        Google Ads API access is performed using a dedicated service account that has been granted access by
-        the operator. The application requests keyword-planning information for research purposes. It does not
-        create or modify campaigns, advertisements, budgets, users, billing profiles, or payment methods.
-      </p>
-    </section>
-
-    <section>
-      <h2>4. Storage and retention</h2>
+      <h2>5. Storage, retention, and deletion</h2>
       <p>
         The application runs on the operator's computer. Credentials are read from local configuration and are
-        not intentionally transmitted to this public website. Active research jobs are held in the local
-        process memory. Exported CSV files are saved only when the operator requests a download and remain
-        under the operator's control.
+        not transmitted to this public website. Active research inputs and results are held in local process
+        memory for the duration of the research session and are discarded when the application process stops,
+        except for information the operator intentionally exports.
+      </p>
+      <p>
+        Exported CSV files remain on the operator's device until the operator deletes them. Local credentials
+        and configuration remain until the operator removes or rotates them. The application does not maintain
+        a developer-controlled cloud database of research results or Google API data. Deletion is performed by
+        deleting local exports and configuration files and, where applicable, revoking the service account's
+        access in Google Ads.
       </p>
     </section>
 
     <section>
-      <h2>5. Third-party services</h2>
+      <h2>6. Sharing, disclosure, and sale</h2>
+      <p>
+        TR Domain Scout does not sell personal information or Google API data. It does not share information
+        with data brokers, advertising networks, or unrelated third parties. Information is transmitted only
+        to the service selected by the operator to complete a research request, or when disclosure is required
+        by law. No human reviews research results unless the operator chooses to share a local export.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Third-party services</h2>
       <p>Depending on the selected workflow, the application may communicate with:</p>
       <ul>
         <li>Google Ads API for keyword-planning metrics;</li>
@@ -74,11 +118,16 @@
         <li>IANA-listed RDAP services for domain-registration status;</li>
         <li>public web sources explicitly selected by the operator.</li>
       </ul>
-      <p>Each provider processes requests under its own terms and privacy policy.</p>
+      <p>
+        Each provider processes requests under its own terms and privacy policy. TR Domain Scout's use and
+        transfer of information received from Google APIs adheres to the
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+        including the Limited Use requirements.
+      </p>
     </section>
 
     <section>
-      <h2>6. This public website</h2>
+      <h2>8. This public website</h2>
       <p>
         This is a static informational website. It does not use account registration, advertising pixels, or
         analytics scripts, and it does not intentionally set cookies. The hosting provider may process basic
@@ -87,24 +136,45 @@
     </section>
 
     <section>
-      <h2>7. Sharing and sale</h2>
+      <h2>9. Security safeguards</h2>
       <p>
-        TR Domain Scout does not sell personal information. Information is sent only to the services required
-        to perform an operator-requested research action or when disclosure is required by law.
+        Credentials are stored only in local configuration, are excluded from the public website and public
+        source repository, and should be protected by operating-system access controls. The operator is
+        responsible for using least-privilege account permissions, rotating credentials, securing local
+        exports, and revoking access that is no longer required. Network requests use HTTPS where supported by
+        the service provider.
       </p>
     </section>
 
     <section>
-      <h2>8. Security</h2>
+      <h2>10. Operator choices and data controls</h2>
       <p>
-        Access credentials should remain on the operator's device and must not be placed in public repositories.
-        The operator is responsible for limiting account permissions, rotating credentials, and securing local
-        exports.
+        The operator controls which keywords are submitted, which services are contacted, whether a CSV file is
+        exported, and when local files are deleted. Google Ads access can be withdrawn by removing the service
+        account from the relevant Google Ads account. Privacy questions or deletion requests concerning any
+        information under the developer's control may be sent to the contact address below.
       </p>
     </section>
 
     <section>
-      <h2>9. Changes</h2>
+      <h2>11. Children's privacy</h2>
+      <p>
+        TR Domain Scout is a private business-research tool and is not directed to children. The application
+        does not knowingly collect personal information from children.
+      </p>
+    </section>
+
+    <section>
+      <h2>12. Prohibited content and AI-generated imagery</h2>
+      <p>
+        The application does not generate, upload, distribute, or facilitate AI-generated non-consensual
+        intimate imagery, intimate imagery of any kind, or other prohibited content. Its functionality is
+        limited to text-based keyword metrics and domain-status research.
+      </p>
+    </section>
+
+    <section>
+      <h2>13. Changes</h2>
       <p>
         This policy may be updated as the application changes. The effective date at the top of this page will
         be revised when material changes are published.
@@ -112,8 +182,12 @@
     </section>
 
     <section>
-      <h2>10. Contact</h2>
-      <p>Questions about this policy may be sent to <a href="mailto:dimcomercial@gmail.com">dimcomercial@gmail.com</a>.</p>
+      <h2>14. Contact</h2>
+      <p>
+        The privacy contact and developer contact for TR Domain Scout is
+        <a href="mailto:dimcomercial@gmail.com">dimcomercial@gmail.com</a>. Questions about this policy,
+        access, correction, or deletion may be sent to this address.
+      </p>
     </section>
   </main>
 
